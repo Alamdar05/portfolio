@@ -8,7 +8,7 @@ Open `index.html` in a browser.
 
 ## Publish with GitHub Pages
 
-1. Put `index.html`, `styles.css`, `Alamdar-Hussain-Solution-Architect-Delivery-Manager.pdf`, and `ITIL-Foundation-Version-5-Certificate.pdf` in the root of your GitHub repository.
+1. Put `index.html`, `styles.css`, `favicon.svg`, `Alamdar-Hussain-Solution-Architect-Delivery-Manager.pdf`, and `ITIL-Foundation-Version-5-Certificate.pdf` in the root of your GitHub repository.
 2. Commit and push the changes.
 3. In the repository, open **Settings → Pages**.
 4. Choose **Deploy from a branch**, select your publishing branch and `/ (root)`, then save.
@@ -35,4 +35,5 @@ The contact section has a styled placeholder ready for your form. To create it:
 4. Copy the **responder link** from the published form and share it with me. I can convert it to the embed URL and replace the placeholder in the contact section.
 
 Google Forms also provides an iframe through **More → Embed HTML**; the published responder link is enough for me to connect it on the site.
+
 
