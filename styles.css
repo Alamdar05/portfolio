@@ -175,7 +175,7 @@
 .payment-art{aspect-ratio:2/1;background-image:url('assets/raast-ubl-banner-horizontal.webp');background-position:center;background-repeat:no-repeat;background-size:cover}
 .payment-art .project-banner{opacity:0}
 /* Match the reference portfolio's square aqua monogram, keeping the AH text. */
-.topbar .brand-mark{position:relative;height:52px;width:52px;flex-basis:52px;border:1.5px solid #43cdbd;border-radius:12px;background:#0c1525;color:#53d4c5;font:600 22px/1 'Arial Narrow',var(--sans);letter-spacing:-.105em}
+.topbar .brand-mark{position:relative;height:52px;width:52px;flex-basis:52px;border:1.5px solid #43cdbd;border-radius:18px;background:#0c1525;color:#53d4c5;font:600 22px/1 'Arial Narrow',var(--sans);letter-spacing:-.105em}
 .topbar .brand-mark::after{content:"";position:absolute;width:14px;height:1.5px;left:50%;bottom:7px;transform:translateX(-50%);border-radius:2px;background:#53d4c5}
 .topbar.is-compact .brand-mark{height:42px;width:42px;flex-basis:42px;position:relative;border:1.5px solid transparent;border-radius:10px;background:linear-gradient(#0c1525,#0c1525) padding-box;color:#53d4c5;font-size:18px}
 .topbar.is-compact .brand-mark::before{content:"";position:absolute;inset:0;border:1.5px solid transparent;border-radius:inherit;background:conic-gradient(from -45deg,#43cdbd 0deg 20deg,transparent 45deg,#43cdbd 70deg 110deg,transparent 135deg,#43cdbd 160deg 200deg,transparent 225deg,#43cdbd 250deg 290deg,transparent 315deg,#43cdbd 340deg 360deg) border-box;-webkit-mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.9;pointer-events:none;transition:opacity .24s ease}
