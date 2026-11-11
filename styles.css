@@ -189,3 +189,16 @@
 /* Handwritten hero greeting to match the supplied reference. */
 @font-face{font-family:'Caveat';src:url('assets/Caveat-SemiBold.ttf') format('truetype');font-style:normal;font-weight:600;font-display:block}
 .overline{font:600 clamp(30px,3.2vw,36px)/1 'Caveat',cursive;letter-spacing:-.035em;color:#f3f1ec;transform:rotate(-2deg);transform-origin:left center;margin:30px 0 0}
+
+/* Certification badge uses the supplied PeopleCert seal in the existing status slot. */
+.certification-card{align-items:center;flex-wrap:nowrap}
+.cert-seal{display:block;flex:0 0 54px;width:54px;height:54px;object-fit:contain;background:#fff;border:1px solid #d9d5ee;border-radius:50%;margin-left:auto}
+@media(max-width:600px){
+ .certification-card{display:grid;grid-template-columns:40px minmax(0,1fr) 42px;align-items:center;gap:8px 10px;padding:14px}
+ .certification-card .cert-mark{grid-column:1;grid-row:1 / span 2;width:40px;height:40px}
+ .certification-card>div{grid-column:2;grid-row:1;min-width:0}
+ .certification-card h3{font-size:13px;line-height:1.35}
+ .certification-card p{font-size:10px;line-height:1.5}
+ .certification-card .cert-link{grid-column:2;grid-row:2;justify-self:start}
+ .certification-card .cert-seal{grid-column:3;grid-row:1 / span 2;width:42px;height:42px;margin:0}
+}
